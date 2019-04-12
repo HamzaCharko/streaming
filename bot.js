@@ -1,14 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : Hamza`);
-        console.log(`----------------`);
-
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-   
 const prefix = "-"
 
 client.on('message', message => {
